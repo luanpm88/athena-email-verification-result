@@ -3,7 +3,6 @@
     "description": "A sample PHP project using Composer",
     "type": "project",
     "require": {
-      "monolog/monolog": "^2.0"
     },
     "autoload": {
       "psr-4": {
