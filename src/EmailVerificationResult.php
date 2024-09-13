@@ -51,7 +51,7 @@ class EmailVerificationResult
         return $this->result['mxs'];
     }
 
-    public function toArray(): string
+    public function toArray(): array
     {
         return $this->result;
     }
