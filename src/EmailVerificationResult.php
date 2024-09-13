@@ -51,8 +51,8 @@ class EmailVerificationResult
         return $this->result['mxs'];
     }
 
-    public function toJson(): string
+    public function toArray(): string
     {
-        return json_encode($this->result);
+        return $this->result;
     }
 }
